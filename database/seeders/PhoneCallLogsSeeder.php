@@ -14,14 +14,14 @@ class PhoneCallLogsSeeder extends Seeder
     public function run(): void
     {
         PhoneCallLog::factory()->create([
-            'call_date' => '2024-01-01T09:30:00',
+            'call_date' => '2024-01-01',
             'phone_number' => '+1234567890',
             'call_duration' => '5:15',
             'status' => 'Incoming',
         ]);
 
         PhoneCallLog::factory()->create([
-            'call_date' => '2024-01-02T12:45:00',
+            'call_date' => '2024-01-02',
             'phone_number' => '+9876543210',
             'call_duration' => '8:20',
             'status' => 'Outgoing',

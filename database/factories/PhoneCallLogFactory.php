@@ -22,7 +22,7 @@ class PhoneCallLogFactory extends Factory
         return [
             'call_date' => $this->faker->dateTimeBetween('-1 year', 'now'),
             'phone_number' => $this->faker->phoneNumber,
-            'call_duration' => $this->faker->time(),
+            'call_duration' => $this->faker->time('i:s'),
             'status' => $this->faker->randomElement(['Incoming', 'Outgoing', 'Missed']),
         ];
     }

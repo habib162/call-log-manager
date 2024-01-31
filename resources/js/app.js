@@ -1,7 +1,7 @@
 import './bootstrap';
 
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import './sidebars';
+
 import { createApp } from 'vue/dist/vue.esm-bundler.js';
 import { createRouter, createWebHashHistory } from 'vue-router';
 import Routes from './routes';
